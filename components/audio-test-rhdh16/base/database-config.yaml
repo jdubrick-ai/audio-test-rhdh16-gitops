@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: audio-test-rhdh16-database-config
+data:
+  VECTORDB_HOST: "audio-test-rhdh16-database"
+  VECTORDB_PORT: ""

@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: audio-test-rhdh16-gitops-repository
+spec:
+  url: https://github.com/jdubrick-ai/audio-test-rhdh16-gitops
